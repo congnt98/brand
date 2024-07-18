@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./dist/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="./libraries/splide-4.1.3/splide.min.css"
+    />
+
+
+    <link rel="stylesheet" href="./js/sider.js" />
+    <script src="./js/jquery.min.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!--show mobi menu class show-menu-mobi -->
+      <header class="header container-fuild">
+        <div class="header__logo">
+          <img src="./assets/sass/images/logo.png" alt="logo" />
+        </div>
+        <div class="header__menu">
+          <ul class="header__menu-items">
+            <!-- show mobie class open -->
+            <li class="header__menu-item sub">
+              <a href="#" class="header__menu-link">ソフト一覧</a>
+              <div class="submenu">
+                <div class="container">
+                  <ul class="sub-items">
+                    <li class="sub-item first">
+                      <a class="sub-item-link" href=""> ソフト一覧 トップ </a>
+                    </li>
+                    <li class="sub-item">
+                      <a class="sub-item-link" href=""
+                        >電気図面・見積作成ソフト「JS楽打L 電気」</a
+                      >
+                    </li>
+                    <li class="sub-item">
+                      <a class="sub-item-link" href=""
+                        >電気設備ソフト「FILDER CeeD 電気」
+                      </a>
+                    </li>
+                    <li class="sub-item">
+                      <a class="sub-item-link" href=""
+                        >給排水申請ソフト「申請くんf上下水道」</a
+                      >
+                    </li>
+                    <li class="sub-item">
+                      <a class="sub-item-link" href=""
+                        >設計図面・見積作成ソフト「申請くんf設備」</a
+                      >
+                    </li>
+                    <li class="sub-item">
+                      <a class="sub-item-link" href=""
+                        >本管図面作成ソフト「申請くんf本管」</a
+                      >
+                    </li>
+                    <li class="sub-item">
+                      <a class="sub-item-link" href=""
+                        >ガス配管図面・見積作成ソフト「申請くんfガス」</a
+                      >
+                    </li>
+                    <li class="sub-item">
+                      <a class="sub-item-link" href=""
+                        >空調図面作成ソフト「JS楽打L 空調」</a
+                      >
+                    </li>
+                    <li class="sub-item">
+                      <a class="sub-item-link" href=""
+                        >建築設備ソフト「FILDER CeeD」</a
+                      >
+                    </li>
+                    <li class="sub-item">
+                      <a class="sub-item-link" href=""
+                        >公共建築工事の入札ソフト「頂き」</a
+                      >
+                    </li>
+                  </ul>
+                  <div class="sub-action">
+                    <div class="btn-close">閉じる</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="header__menu-item">
+              <a href="" class="header__menu-link">業種別ソフト</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="" class="header__menu-link">お役立ちコラム</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="" class="header__menu-link">お客様の声</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="" class="header__menu-link">FAQ</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="" class="header__menu-link"> 会社概要</a>
+            </li>
+          </ul>
+          <div class="sub-action-mobie">
+            <div class="btn-close">閉じる</div>
+          </div>
+        </div>
+        <div class="header__contact">
+          <div class="mail flexGroup">
+            <div class="flex-right">
+              <span class="icon icon-mail"></span>
+            </div>
+            <div class="flex-left">
+              <div class="mail__text">お問い合わせ</div>
+            </div>
+          </div>
+          <div class="phone flexGroup">
+            <div class="flex-right">
+              <span class="icon icon-phone"></span>
+            </div>
+            <div class="flex-left">
+              <div class="phone-number">052-459-5505</div>
+              <div class="phone__text">（全国対応 総合窓口）</div>
+            </div>
+          </div>
+        </div>
+        <div class="header__togger-menu">
+          <span class="icon icon-menu"></span>
+        </div>
+      </header>
+      <section class="banner">
+        <div class="container">
+          <div class="banner__push-image">
+            <div class="banner__push-image-text">
+              <div class="title">
+                <h2>もっと<span>簡単</span> に、</h2>
+                <h2>もっと <span>はやく</span> 、</h2>
+                <h2>もっと <span>安心</span> して</h2>
+              </div>
+              <div class="banner__push-image-image">
+                <img src="./assets/sass/images/banner.png" alt="banner" />
+              </div>
+              <div class="descreptions">
+                <p>水道・<strong>電気</strong>・空調・ガス　</p>
+                <p>人とソフトを繋ぐ、ソフトリンク。</p>
+                <p><strong>CAD</strong>・見積・入札積算・管理</p>
+                <p><strong>WEB事業</strong>・セキュリティに至るまで、</p>
+                <p>ソフトリンクがお手伝い！</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-mail">
+            <div class="wrapper">
+              <span class="icon icon-mail"></span>
+              <span class="detail-mobie">
+                <span>お問い合わせ・資料請求はこちら</span>
+              </span>
+              <span class="detait-desktop">
+                お<br />問<br />い<br />合<br />わ<br />せ<br />・<br />資<br />料<br />請<br />求
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="banner__bottom">
+        <div class="banner__bottom-group flexGroup">
+          <div class="banner__bottom-left flex-fleft">
+            <h2 class="title">お知らせ</h2>
+            <h4 class="detail">News</h4>
+          </div>
+          <div class="banner__bottom-right flex-right">
+            <div class="content">
+              <span class="text-bold">2023/03/15</span
+              ><span>WEBサイトリニューアル</span>
+            </div>
+            <div class="content">
+              <span class="text-bold">2021/6/4～6</span>
+              <span
+                >（株）扇港電機　第46回2021グランドフェア　電設総合資材展　出展中</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="software">
+        <h2 class="title">ソフトウェア</h2>
+        <h4 class="poppins">Software</h4>
+        <div class="container">
+          <div class="description">
+            <h4>
+              各工事業者様の目的にあったソフトウェアを取り揃えています。<br />
+              <strong class="underline"
+                >あなたの「 困った 」をソフトで解決！</strong
+              >
+            </h4>
+          </div>
+          <div class="supply-solution">
+            <div class="field-image">
+              <img src="./assets/sass/images/illust.png" alt="illust" />
+            </div>
+            <div class="field-body">
+              <h3>
+                ソフトリンクではあなたの理想にピッタリな <br />
+                <strong class="underline">
+                  ソフトウェアが見つかります！
+                </strong>
+              </h3>
+            </div>
+          </div>
+          <div class="services">
+            <div class="highlight">
+              <p>まずは該当する工事業者様を選択してください。</p>
+            </div>
+            <div class="field__items">
+              <div class="field__item electric">
+                <div class="icon"></div>
+                <div class="field-body">
+                  <p>電気屋さん</p>
+                </div>
+              </div>
+              <div class="field__item plumber">
+                <div class="icon"></div>
+                <div class="field-body">
+                  <p>水道屋さん</p>
+                </div>
+              </div>
+              <div class="field__item gas">
+                <div class="icon"></div>
+                <div class="field-body">
+                  <p>ガス屋さん</p>
+                </div>
+              </div>
+              <div class="field__item air-condition">
+                <div class="icon"></div>
+                <div class="field-body">
+                  <p>空調屋さん</p>
+                </div>
+              </div>
+              <div class="field__item bidding-related">
+                <div class="icon"></div>
+                <div class="field-body">
+                  <p>入札関連</p>
+                </div>
+              </div>
+            </div>
+            <div class="btn btn-list">
+              一覧を見る
+              <span class="icon arrow-right"></span>
+            </div>
+          </div>
+          <div class="banner-software">
+            <img
+              src="./assets/sass/images/mini-banner-software.png"
+              alt="banner-sofrware"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="cd">
+        <div class="container">
+          <div class="cd__content flexGroup">
+            <div class="cd__text">
+              <div class="descretion">
+                <img src="./assets/sass/images/left.png" alt="" />
+                ソフトのことが詳しく分かるデモCDをプレゼント中！
+                <img src="./assets/sass/images/right.png" alt="" />
+              </div>
+              <div class="next-cd">
+                <h3 class="title">資料請求はこちら</h3>
+                <span class="icon-next"></span>
+              </div>
+              <div class="cd__image">
+                <img src="./assets/sass/images/CD.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="support">
+        <div class="wrapper-container">
+          <div class="media-extended-inner">
+            <div class="desktop">
+              <img
+                src="./assets/sass/images/banner-support.png"
+                alt="banner-support"
+              />
+            </div>
+            <div class="mobile">
+              <img
+                src="./assets/sass/images/banner-support-mobile.png"
+                alt="banner-support-mobile"
+              />
+            </div>
+          </div>
+          <div class="container">
+            <div class="content">
+              <h2 class="m-0">遠隔サポート</h2>
+              <h4 class="poppins">Support</h4>
+              <div class="wrapper-content">
+                <p>使い方がわからない…そんな「困った」を即座に解決！</p>
+                <p>遠くからあなたをサポートいたします。</p>
+                <p>担当者がお客さまの画面を見ながら</p>
+                <p>操作案内／お客さまに代わって操作設定することもできます</p>
+                <p class="gray">
+                  ※TeamViewerをお使いのPCにインストールする必要があります。
+                </p>
+              </div>
+              <button class="btn btn-download">
+                <a href="#">TeamViewerをダウンロード</a>
+                <span class="icon download"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="column">
+        <div class="title-header">
+          <h2 class="m-0">お役立ちコラム</h2>
+          <h4 class="poppins">Column</h4>
+        </div>
+        <div class="content">
+          <div class="field__items splide">
+            <div class="field__items--track splide__track">
+              <div class="splide__list">
+                <div class="field__item splide__slide">
+                  <div class="field-image">
+                    <img src="./assets/sass/images/column-1.png" alt="c2" />
+                  </div>
+                  <div class="field-content">
+                    <div class="tag">水道CAD</div>
+                    <div class="field-body">
+                      <p>
+                        水道CADソフトで水道本管、配管、上下水道申請図などの図面作成！購入価格の見積りなら
+                      </p>
+                    </div>
+                    <div class="read-more">
+                      <a href="#">続きを読む</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="field__item splide__slide">
+                  <div class="field-image">
+                    <img src="./assets/sass/images/column-2.png" alt="c2" />
+                  </div>
+                  <div class="field-content">
+                    <div class="tag">水道CAD</div>
+                    <div class="field-body">
+                      <p>
+                        水道CADソフトで水道本管、配管、上下水道申請図などの図面作成！購入価格の見積りなら
+                      </p>
+                    </div>
+                    <div class="read-more">
+                      <a href="#">続きを読む</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="field__item splide__slide">
+                  <div class="field-image">
+                    <img src="./assets/sass/images/column-3.png" alt="c2" />
+                  </div>
+                  <div class="field-content">
+                    <div class="tag">水道CAD</div>
+                    <div class="field-body">
+                      <p>
+                        水道CADソフトで水道本管、配管、上下水道申請図などの図面作成！購入価格の見積りなら
+                      </p>
+                    </div>
+                    <div class="read-more">
+                      <a href="#">続きを読む</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="field__item splide__slide">
+                  <div class="field-image">
+                    <img src="./assets/sass/images/column-4.png" alt="c3" />
+                  </div>
+                  <div class="field-content">
+                    <div class="tag">水道CAD</div>
+                    <div class="field-body">
+                      <p>
+                        水道CADソフトで水道本管、配管、上下水道申請図などの図面作成！購入価格の見積りなら
+                      </p>
+                    </div>
+                    <div class="read-more">
+                      <a href="#">続きを読む</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="field__item splide__slide">
+                  <div class="field-image">
+                    <img src="./assets/sass/images/column-5.png" alt="c5" />
+                  </div>
+                  <div class="field-content">
+                    <div class="tag">水道CAD</div>
+                    <div class="field-body">
+                      <p>
+                        水道CADソフトで水道本管、配管、上下水道申請図などの図面作成！購入価格の見積りなら
+                      </p>
+                    </div>
+                    <div class="read-more">
+                      <a href="#">続きを読む</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="field__item splide__slide">
+                  <div class="field-image">
+                    <img src="./assets/sass/images/column-1.png" alt="c2" />
+                  </div>
+                  <div class="field-content">
+                    <div class="tag">水道CAD</div>
+                    <div class="field-body">
+                      <p>
+                        水道CADソフトで水道本管、配管、上下水道申請図などの図面作成！購入価格の見積りなら
+                      </p>
+                    </div>
+                    <div class="read-more">
+                      <a href="#">続きを読む</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="field__item splide__slide">
+                  <div class="field-image">
+                    <img src="./assets/sass/images/column-2.png" alt="c2" />
+                  </div>
+                  <div class="field-content">
+                    <div class="tag">水道CAD</div>
+                    <div class="field-body">
+                      <p>
+                        水道CADソフトで水道本管、配管、上下水道申請図などの図面作成！購入価格の見積りなら
+                      </p>
+                    </div>
+                    <div class="read-more">
+                      <a href="#">続きを読む</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="field__item splide__slide">
+                  <div class="field-image">
+                    <img src="./assets/sass/images/column-3.png" alt="c2" />
+                  </div>
+                  <div class="field-content">
+                    <div class="tag">水道CAD</div>
+                    <div class="field-body">
+                      <p>
+                        水道CADソフトで水道本管、配管、上下水道申請図などの図面作成！購入価格の見積りなら
+                      </p>
+                    </div>
+                    <div class="read-more">
+                      <a href="#">続きを読む</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="field__item splide__slide">
+                  <div class="field-image">
+                    <img src="./assets/sass/images/column-4.png" alt="c3" />
+                  </div>
+                  <div class="field-content">
+                    <div class="tag">水道CAD</div>
+                    <div class="field-body">
+                      <p>
+                        水道CADソフトで水道本管、配管、上下水道申請図などの図面作成！購入価格の見積りなら
+                      </p>
+                    </div>
+                    <div class="read-more">
+                      <a href="#">続きを読む</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="field__item splide__slide">
+                  <div class="field-image">
+                    <img src="./assets/sass/images/column-5.png" alt="c5" />
+                  </div>
+                  <div class="field-content">
+                    <div class="tag">水道CAD</div>
+                    <div class="field-body">
+                      <p>
+                        水道CADソフトで水道本管、配管、上下水道申請図などの図面作成！購入価格の見積りなら
+                      </p>
+                    </div>
+                    <div class="read-more">
+                      <a href="#">続きを読む</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="field__item splide__slide">
+                  <div class="field-image">
+                    <img src="./assets/sass/images/column-1.png" alt="c2" />
+                  </div>
+                  <div class="field-content">
+                    <div class="tag">水道CAD</div>
+                    <div class="field-body">
+                      <p>
+                        水道CADソフトで水道本管、配管、上下水道申請図などの図面作成！購入価格の見積りなら
+                      </p>
+                    </div>
+                    <div class="read-more">
+                      <a href="#">続きを読む</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="field__item splide__slide">
+                  <div class="field-image">
+                    <img src="./assets/sass/images/column-2.png" alt="c2" />
+                  </div>
+                  <div class="field-content">
+                    <div class="tag">水道CAD</div>
+                    <div class="field-body">
+                      <p>
+                        水道CADソフトで水道本管、配管、上下水道申請図などの図面作成！購入価格の見積りなら
+                      </p>
+                    </div>
+                    <div class="read-more">
+                      <a href="#">続きを読む</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="field__item splide__slide">
+                  <div class="field-image">
+                    <img src="./assets/sass/images/column-3.png" alt="c2" />
+                  </div>
+                  <div class="field-content">
+                    <div class="tag">水道CAD</div>
+                    <div class="field-body">
+                      <p>
+                        水道CADソフトで水道本管、配管、上下水道申請図などの図面作成！購入価格の見積りなら
+                      </p>
+                    </div>
+                    <div class="read-more">
+                      <a href="#">続きを読む</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="field__item splide__slide">
+                  <div class="field-image">
+                    <img src="./assets/sass/images/column-4.png" alt="c3" />
+                  </div>
+                  <div class="field-content">
+                    <div class="tag">水道CAD</div>
+                    <div class="field-body">
+                      <p>
+                        水道CADソフトで水道本管、配管、上下水道申請図などの図面作成！購入価格の見積りなら
+                      </p>
+                    </div>
+                    <div class="read-more">
+                      <a href="#">続きを読む</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="field__item splide__slide">
+                  <div class="field-image">
+                    <img src="./assets/sass/images/column-5.png" alt="c5" />
+                  </div>
+                  <div class="field-content">
+                    <div class="tag">水道CAD</div>
+                    <div class="field-body">
+                      <p>
+                        水道CADソフトで水道本管、配管、上下水道申請図などの図面作成！購入価格の見積りなら
+                      </p>
+                    </div>
+                    <div class="read-more">
+                      <a href="#">続きを読む</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="splide__arrows"></div>
+            <div class="dots">
+              <ul class="splide__pagination dots-list"></ul>
+            </div>
+          </div>
+          <div class="wrapper-button">
+            <div class="btn btn-list">
+              <a href="#"> 一覧を見る </a>
+              <span class="icon arrow-right"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="voice">
+        <div class="container">
+          <div class="wrapper-header">
+            <h2 class="m-0">お客様の声</h2>
+            <h4 class="poppins">Voice</h4>
+          </div>
+          <div class="content">
+            <div class="field__items">
+              <div class="field__item">
+                <div class="field-title">
+                  申請くんｆ上下水道 （長浜市　Y様）
+                </div>
+                <div class="field-body">
+                  <p>
+                    今までは手書きでしたが、現場の仕事をしながらの申請業務は、本当に大変でした。知人の紹介でソフトリンクさんのCADを導入してからは、ほぼ自動で作成できるので、半日以上かかっていた申請業務が３０分程度で終わるようになり、時間に余裕が出来ました。...
+                  </p>
+                </div>
+                <div class="read-more"><a href="#">続きを読む</a></div>
+              </div>
+              <div class="field__item">
+                <div class="field-title">
+                  申請くんｆ上下水道（四日市市　Ｎ様）
+                </div>
+                <div class="field-body">
+                  <p>
+                    以前使っていた専門ＣＡＤソフトも自動配管などの機能がありましたが、思った通りには配管が出来ず手直しも大変で、結局時間がかかっていました。<br />
+                    今は、実用的な自動機能と汎用機能が共に充実しているので、かなりの効率アップになっています。...
+                  </p>
+                </div>
+                <div class="read-more"><a href="#">続きを読む</a></div>
+              </div>
+              <div class="field__item">
+                <div class="field-title">
+                  申請くんｆ上下水道・ハウス（長野市　Ｍ様）
+                </div>
+                <div class="field-body">
+                  <p>
+                    ソフト導入後の操作指導やサポートにとても満足しています。
+                    電話サポートやインターネットの遠隔サポートなどもあり、書類、書き方の変更など困った時すぐ対応して頂いております。どんな些細な質問にも、分かりやすく丁寧に対応して頂けるので、...
+                  </p>
+                </div>
+                <div class="read-more"><a href="#">続きを読む</a></div>
+              </div>
+              <div class="field__item">
+                <div class="field-title">ＪＳ楽打Ｌ電気 （名古屋市　Ｗ様）</div>
+                <div class="field-body">
+                  <p>
+                    今まではＪＷで図面を書いていましたが、私しか使えず、従業員にも使えるＣＡＤがあればと思い問合せしました。
+                    ソフトを入れてからは従業員も使えるようになり、ＪＷを使用していた私も今まで以上にスピーディーに書けるようになりました。...
+                  </p>
+                </div>
+                <div class="read-more"><a href="#">続きを読む</a></div>
+              </div>
+            </div>
+            <div class="wrapper-button">
+              <div class="btn btn-list">
+                <a href="#"> 一覧を見る </a>
+                <span class="icon arrow-right"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq">
+        <div class="container">
+          <h2 class="title">よくあるご質問</h2>
+          <h4 class="faq__title">FAQ</h4>
+          <div class="faq__items">
+            <div class="faq__item">
+              <h4 class="title">
+                <p>
+                  <span>
+                    申請くんfシリーズ（上下水道・設計見積り・本管・ガス）</span
+                  >
+                </p>
+              </h4>
+              <div class="accordion">
+                <div class="accordion__item">
+                  <div class="accordion__header">
+                    <span class="highlight">Q. </span>
+                    水理計算はできますか？
+                  </div>
+                  <div class="accordion__content">
+                    <div class="accordion__contentinner">
+                      はい、できます。<br />
+                      申請用に自動作成された立面図から、そのまま水理計算を行う事が可能です。<br />
+                      戸建てはもちろん、同時使用戸数率やＢＬワンルーム・ＢＬファミリーなど、５つのパターンの計算方法に対応しているため、アパート図面でも簡単に計算を行えます。また、各市町村指定の水理計算書式に合わせた当て込み印刷も可能です。
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion__item">
+                  <div class="accordion__header">
+                    <span class="highlight">Q. </span>
+                    <p>外部データの読み込み・書き出しはできますか？</p>
+                  </div>
+                  <div class="accordion__content">
+                    <div class="accordion__contentInner"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="faq__item">
+              <h4 class="title">
+                <p><span>JS楽打Ｌシリーズ（電気・空調・水道）</span></p>
+              </h4>
+              <div class="accordion">
+                <div class="accordion__item">
+                  <div class="accordion__header">
+                    <span class="highlight">Q. </span>
+                    <p>外部データの読み込み・書き出しはできますか？</p>
+                  </div>
+                  <div class="accordion__content">
+                    <div class="accordion__contentInner"></div>
+                  </div>
+                </div>
+                <div class="accordion__item">
+                  <div class="accordion__header">
+                    <span class="highlight">Q. </span>
+                    <p>
+                      スキャンしたPDFファイルやFAXでもらった紙図面を取り込めますか？
+                    </p>
+                  </div>
+                  <div class="accordion__content">
+                    <div class="accordion__contentInner"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq__action">
+            <button class="btn btn-next">一覧を見る</button>
+          </div>
+        </div>
+      </section>
+      <section class="cd">
+        <div class="container">
+          <div class="cd__content flexGroup">
+            <div class="cd__text">
+              <div class="descretion">
+                <img src="./assets/sass/images/left.png" alt="" />
+                ソフトのことが詳しく分かるデモCDをプレゼント中！
+                <img src="./assets/sass/images/right.png" alt="" />
+              </div>
+              <div class="next-cd">
+                <h3 class="title">資料請求はこちら</h3>
+                <span class="icon-next"></span>
+              </div>
+              <div class="cd__image">
+                <img src="./assets/sass/images/CD.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="company">
+        <div class="container">
+          <h2 class="title">会社概要</h2>
+          <h4 class="company__title">Company</h4>
+          <div class="company__content flexGroup">
+            <div class="info">
+              <div class="info__company">
+                <div class="title">運営会社：株式会社サニークリエイティブ</div>
+                <p>〒453-0011愛知県名古屋市中村区千原町1-1</p>
+                <p>Tel：052-459-5505</p>
+                <p>Fax：052-459-5506</p>
+                <p>Website：https://softlink1-lp.com/</p>
+              </div>
+              <div class="info__branch">
+                <div class="title">福岡支店</div>
+                <p>〒812-0041 福岡県福岡市博多区吉塚5丁目11-1第2小舘ビル２F</p>
+                <p>Tel：092-624-3010</p>
+                <p>Fax：092-510-0566</p>
+              </div>
+              <div class="info__office">
+                <div class="title">沖縄営業所</div>
+                <p>〒905-0011 沖縄県名護市宮里872-12オアシスきな5F</p>
+              </div>
+            </div>
+            <div class="iamge">
+              <img src="./assets/sass/images/mappng.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__top flexGroup">
+            <div class="footer__logo">
+              <img src="./assets/sass/images/logo.png" alt="logo" />
+            </div>
+            <div class="footer__content">
+              <div class="footer__menu">
+                <ul class="footer__menu-items">
+                  <li class="footer__menu-item">
+                    <a href="" class="footer__menu-link">ソフト一覧</a>
+                  </li>
+                  <li class="footer__menu-item">
+                    <a href="" class="footer__menu-link">業種別ソフト</a>
+                  </li>
+                  <li class="footer__menu-item">
+                    <a href="" class="footer__menu-link">お役立ちコラム</a>
+                  </li>
+                  <li class="footer__menu-item">
+                    <a href="" class="footer__menu-link">お客様の声</a>
+                  </li>
+                  <li class="footer__menu-item">
+                    <a href="" class="footer__menu-link">FAQ</a>
+                  </li>
+                  <li class="footer__menu-item">
+                    <a href="" class="footer__menu-link"> 会社概要</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer__menu footer__menu-bottom">
+                <ul class="footer__menu-items">
+                  <li class="footer__menu-item">
+                    <a href="" class="footer__menu-link">お問い合わせ</a>
+                  </li>
+                  <li class="footer__menu-item">
+                    <a href="" class="footer__menu-link"
+                      >プライバシーポリシー</a
+                    >
+                  </li>
+                  <li class="footer__menu-item">
+                    <a href="" class="footer__menu-link">採用情報</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="back-to-top" onclick="bttBtn()"></div>
+          </div>
+        </div>
+        <div class="footer__copyright">©2023 sunnycreative</div>
+      </footer>
+    </div>
+    <script src="./js/sider.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/acordion.js"></script>
+    <script src="./libraries/splide-4.1.3/splide.min.js"></script>
+  </body>
+</html>

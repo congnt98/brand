@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  word-break: break-word;
+}
+
+body {
+  font-size: 16px;
+  font-family: $font-family;
+  font-weight: 400;
+  color: $txt-color;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  width: auto;
+}
+
+h2 {
+  @include font-bold(48px, 1.5, null);
+  margin-bottom: 24px;
+}
+
+h3 {
+  @include font-bold(36px, 1.75, null);
+}
+
+h4 {
+  @include font-bold(24px, 1.75, null);
+}
+
+h1 {
+  // @include font-bold(64px, 1, #fff);
+}
+
+.flexGroup {
+  @include flexCenter();
+}
+
+.icon {
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  @include container();
+}
+
+.underline {
+  text-decoration: underline 20px $yellow;
+  text-underline-offset: -50%;
+}
+
+.btn {
+  @include btn();
+
+  &.btn-list {
+    @include btn(default);
+  }
+
+  &.btn-download {
+    @include btn(download);
+  }
+}
+
+.icon-next {
+  display: inline-block;
+  background-image: url(../images/icon-right.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 17px 28px;
+  width: 30px;
+  height: auto;
+}
+
+.poppins {
+  font-family: $font-poppins;
+  font-weight: 600;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.icon-mail {
+  display: inline-block;
+  width: 30px;
+  height: 23px;
+  background-image: url(../images/icon-mail.png);
+  background-size: 30px 23px;
+}
+
+.icon-phone {
+  display: inline-block;
+  width: 24px;
+  background-image: url(../images/icon-phone.png);
+  height: 31px;
+  background-size: 24px 31px;
+}

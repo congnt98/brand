@@ -1,0 +1,23 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="256px" height="196px">
+    <defs>
+        <filter filterUnits="userSpaceOnUse" id="Filter_0" x="0px" y="0px" width="256px" height="196px"  >
+            <feOffset in="SourceAlpha" dx="0" dy="4" />
+            <feGaussianBlur result="blurOut" stdDeviation="1.414" />
+            <feFlood flood-color="rgb(0, 0, 0)" result="floodOut" />
+            <feComposite operator="atop" in="floodOut" in2="blurOut" />
+            <feComponentTransfer><feFuncA type="linear" slope="0.15"/></feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+
+    </defs>
+    <g filter="url(#Filter_0)">
+        <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+              d="M215.843,108.608 C244.195,137.584 185.725,174.834 146.335,153.591 C42.830,164.657 2.052,128.543 25.768,103.001 C-15.734,78.620 6.562,13.060 107.292,6.638 C245.362,-2.155 277.151,83.041 215.843,108.608 ZM204.187,159.315 C208.649,159.086 212.425,161.746 212.597,165.237 C212.768,168.728 209.307,171.761 204.873,172.018 C200.411,172.247 196.664,169.615 196.463,166.096 C196.292,162.605 199.753,159.573 204.187,159.315 ZM213.912,176.052 C216.916,175.880 219.433,177.654 219.576,180.029 C219.691,182.403 217.345,184.435 214.341,184.607 C211.338,184.778 208.792,182.976 208.678,180.630 C208.563,178.255 210.909,176.224 213.912,176.052 Z"/>
+    </g>
+</svg>
